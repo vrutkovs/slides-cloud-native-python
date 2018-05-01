@@ -8,7 +8,7 @@ background-image: url(imgs/back.png)
 ---
 template: section
 # Cloud-native Python
-## Adventures with OpenShift
+### Adventures with OpenShift
 
 .footnote[Vadim Rutkovsky <vrutkovs@redhat.com>]
 ---
