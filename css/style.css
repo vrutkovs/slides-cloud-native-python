@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+
+body {
+  font-family: 'Droid Serif';
+}
+
+h1, h2, h3, h4 {
+  margin-block-start: unset;
+  margin-block-end: unset;
+}
+
+
+.remark-slide-number {
+  bottom: 30px;
+  left: 30px;
+  opacity: 0.25;
+  position: absolute;
+  right: unset;
+}
+
+.remark-slide-content {
+  background-color: #f1f1f1;
+  background-size: contain;
+  font-size: 22px;
+}
+
+.remark-slide-content .footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    opacity: 0.5;
+}
+
+.remark-inline-code {
+  font-family: 'Inconsolata';
+}
+
+.remark-code {
+  font-family: 'Inconsolata';
+  font-size: 12pt !important;
+}
+
+.remark-slide-scaler {
+  overflow-y: auto;
+}
+
+.hljs {
+  background: inherit !important;
+  color: inherit !important;
+}
+
+p {
+  font-size: 18pt;
+}
+
+pre {
+  font-size: 20px;
+  line-height: 20px;
+  padding: 10px 0 10px 100px;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  background-color: #e6e6e6;
+  left: -100px;
+  width: 1000px;
+  position: relative;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.inverse {
+  background: #272822;
+  color: #777872;
+  text-shadow: 0 0 20px #333;
+}
+.inverse h1, .inverse h2 {
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+
+.inverse a, .inverse a > code {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+
+.inverse .remark-slide-number {
+  display: none;
+}
+
+.bmo > p > img {
+  margin-top: -50px;
+}
+
+.bmo > h2 {
+  margin-top: -50px;
+}
