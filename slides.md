@@ -31,22 +31,6 @@ class: center, middle
 * Build / Deployment Automation
 
 ---
-## Components
-
-* **Master** - control plane, includes API server and controller manager
-* **Node** - provides runtime (docker / crio) for container
-* **Etcd** - highly-available key-value storage for all API objects
-
-### Objects
-
-* **Pod** - a set of containers, which share a resource
-* **Replica Set** - ensures that a required number of pods is running
-* **Deployment** - describes a desired state of deployment, creates Replica Sets
-* **ConfigMap** / **Secret** - stores configuration to be consumed by a pod
-* **Service** - an internal load balancer for a set of pods
-* **Route** - exposes a Service outside of the cluster
-* **Namespace** - provides a scope for thje resources in the cluster
----
 # Getting Started
 
 `oc` - openshift's command line client. Get it at https://www.openshift.org/download.html
