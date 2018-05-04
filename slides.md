@@ -13,6 +13,22 @@ template: section
 .footnote[Vadim Rutkovsky <vrutkovs@redhat.com>]
 ---
 class: center, middle
+![Snake trap](imgs/snake_trap.jpg)
+???
+You've all have heard about how these large companies like Github, Reddit and others are using
+Kubernetes to run a lot of containers, balance the load, monitor the apps and deploy new versions fast.
+
+But the question a lot of people are asking is
+"What's in it for me, a developer? Does it make development easier?"
+
+Current answer is 'not much'. Kubernetes is incredibly useful for Ops teams, but doesn't building,
+testing and debugging the code a lot.
+
+This is why Kubernetes needs to be extended with a set of tools to make development easier.
+One of these tools is Openshift.
+
+---
+class: center, middle
 ![Cat pic](imgs/cat.png)
 ???
 * Enterprise Kubernetes, developer-focused
