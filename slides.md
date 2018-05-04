@@ -32,11 +32,9 @@ class: center, middle
 ![Cat pic](imgs/cat.png)
 ???
 * Enterprise Kubernetes, developer-focused
-* Forked from Kubernetes codebase, regularly synced with upstream (3 month delay)
-* Not an overlay over k8s and not an additional layer of abstraction
-* Additional k8s objects - ImageStream, BuildConfigs, DeploymentConfigs
+* Similar to Linux kernel - vanilla Kubernetes + additional goodies
 * Origin - upstream version, Openshift Container Platform - enterprise version
-* OCP versions are supported for 2 years
+* Additional k8s objects - ImageStream, BuildConfigs, DeploymentConfigs
 ---
 class: center, middle
 ![Openshift](imgs/openshift.png)
