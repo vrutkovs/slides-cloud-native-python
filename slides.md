@@ -39,10 +39,10 @@ class: center, middle
 class: center, middle
 ![Openshift](imgs/openshift.png)
 ???
-* Fedora / CentOS / RHEL (incl. Atomic)
+* Base system - RHEL, CentOS, Fedora
 * Container Runtime - Docker / CRI-O
 * Software Defined Networking
-* Build / Deployment Automation
+* Build / Deployment Automation, Metrics / Logs, self-service
 
 ---
 # Getting Started
