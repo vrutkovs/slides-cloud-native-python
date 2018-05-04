@@ -65,7 +65,9 @@ You are logged in as:
 To login as administrator:
     oc login -u system:admin
 ```
-
+???
+Starts a new clsuter, components are running in a container
+Minishift VM to run it in Vagrant box
 ---
 template: section
 # Demo
